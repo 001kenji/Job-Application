@@ -4,7 +4,7 @@
 :briefcase: **Overview**
 -----------
 
-This repository houses a full-stack web application designed to facilitate job posting and application processes. Employers can create and manage job listings, while job seekers can apply, withdraw applications, and track their status. The platform supports multiple approvals for a single job position.
+This repository houses a full-stack web application with authentication for login, sign up, reset password and account activation.Designed to facilitate job posting and application processes. Employers can create and manage job listings, while job seekers can apply, withdraw applications, and track their status. The platform supports multiple approvals for a single job position.
 
 **Technology Stack**
 --------------------

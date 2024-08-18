@@ -20,7 +20,7 @@ This repository houses a full-stack web application designed to facilitate job p
 ### Clone the repository
 
 ``` 
-git clone https://github.com/your-username/job-application-platform.git ```<br>
+git clone https://github.com/001kenji/Job-Application.git ```<br>
 cd job-application-platform
 ```
 

@@ -53,3 +53,4 @@ run redis<br>
 ```
 redis-cli 
 ```
+make sure to go though each file and replace important values and credentials.

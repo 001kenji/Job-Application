@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+    http-equiv="Content-Security-Policy"
+    content=" 
+      {% comment %} default-src 'self' http://localhost:5173; {% endcomment %}
+      script-src 'self' 'nonce-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9==';
+      style-src 'self' 'unsafe-inline';
+      connect-src 'self'  http://127.0.0.1:8000 ws://127.0.0.1:8000;
+      {% comment %} img-src 'unsafe' 'nonce-NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwia==' http://localhost:5173 https://cdn.jsdelivr.net http://127.0.0.1:8000; {% endcomment %}
+    " />
+    <link rel="icon" type="image/svg+xml" href="./public/icon.jpeg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>B-Intel</title>
+  </head>
+  <body>
+    <div class=' h-full w-full min-h-screen' id="root"></div>
+    <script nonce='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9==' type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

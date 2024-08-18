@@ -1,0 +1,90 @@
+input {
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 3px;
+    min-height: 30px;
+    
+}
+
+
+#woods {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("./assets/images/lost.jpg");
+}
+
+
+::selection {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    padding: 1px;
+}
+#BtnTop {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    /* bottom: 20px; Place the button at the bottom of the page */
+    right: 10px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+  }
+
+  @media print {
+    .table-container {
+      /* Set the table layout */
+      table-layout: fixed;
+  
+      /* Set the width of the table */
+      width: 100%;
+  
+      /* Set the margin of the table */
+      margin: 1cm;
+  
+      /* Set the paper size */
+      @page {
+        size: A4 portrait;
+      }
+    }
+  }
+
+
+@font-face {
+    font-family: HeadingPooppin;
+    src: url('./assets/Fonts/Poppins/Poppins-ExtraBold.ttf');
+}
+#Tittle {
+    font-family: HeadingPooppin;
+    font-size: xx-large;
+}
+
+@media only screen and (max-width : 640px) {
+    #Tittle {
+        font-family: HeadingPooppin;
+        font-size: x-large;
+    }
+}
+
+
+@font-face {
+  font-family: PoppindBold;
+  src: url('./assets/Fonts/Poppins/Poppins-Bold.ttf');
+}
+@font-face {
+  font-family: PoppinsSemiBold;
+  src: url('./assets/Fonts/Poppins/Poppins-SemiBold.ttf');
+}
+@font-face {
+  font-family: PoppinsN;
+  src: url('./assets/Fonts/Poppins/Poppins-Regular.ttf');
+}
+
+#BigProppin {
+    font-family: PoppinsSemiBold;
+    
+}
+
+#PoppinN {
+  font-family: PoppinsN;
+}

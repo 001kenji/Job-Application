@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    width: 10px; /* width of the scrollbar */
+    height: 10px; /* height of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #f0f0f0; /* color of the scrollbar track */
+    border-radius: 10px; /* rounded corners for the track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #aaa; /* color of the scrollbar thumb */
+    border-radius: 10px; /* rounded corners for the thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #666; /* color of the scrollbar thumb on hover */
+  }
+  
+  /* Making the scrollbar visible */
+  body {
+    overflow-y: scroll; /* making the scrollbar visible */
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px; /* width of the scrollbar */
+    height: 10px; /* height of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: black; /* color of the scrollbar track */
+    border-radius: 10px; /* rounded corners for the track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #333; /* color of the scrollbar thumb */
+    border-radius: 10px; /* rounded corners for the thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #633; /* color of the scrollbar thumb on hover */
+  }
+  
+  /* Making the scrollbar visible */
+  body {
+    overflow-y: scroll; /* making the scrollbar visible */
+  }

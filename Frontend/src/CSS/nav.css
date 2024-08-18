@@ -1,0 +1,474 @@
+input {
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 3px;
+    min-height: 30px;
+    
+}
+@font-face {
+    font-family: HeadingPooppin;
+    src: url('./assets/Fonts/Poppins/Poppins-ExtraBold.ttf');
+}
+#Tittle {
+    font-family: HeadingPooppin;
+    font-size: xx-large;
+    
+}
+
+@media only screen and (max-width : 640px) {
+    #Tittle {
+        font-family: HeadingPooppin;
+        font-size: x-large;
+    }
+}
+
+@font-face {
+    font-family: PoppindBold;
+    src: url('./assets/Fonts/Poppins/Poppins-Bold.ttf');
+  }
+  @font-face {
+    font-family: PoppinsSemiBold;
+    src: url('./assets/Fonts/Poppins/Poppins-SemiBold.ttf');
+  }
+  
+  @media only screen and (max-width : 320px) {
+    #universal-container-div {
+      width: 100%;
+      max-width: 100%;
+      min-width: 100%;
+      align-items: center;
+      z-index: 100%;
+      
+      justify-content: center;
+    }
+    #navbar-contaner-div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    #top-nav-div {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-around;
+      width: 100%;
+     align-items: center;
+     min-height: 50px;
+    }
+    #top-nav-icon-div {
+      display: flex;
+      align-items: flex-start;
+    }
+    #top-nav-title-div {
+      width: 50%;
+      align-items: center;
+      font-family: 'Times New Roman', Times, serif;
+      letter-spacing: 2px;
+      
+    
+    }
+    #botton-container-div {
+      display: flex;
+      align-items: flex-start;
+      width: 100%;
+      justify-content: space-around;
+      
+    }
+    #botton-container-div span {
+      height: 100%;
+      min-height: 100%;
+      visibility: hidden;
+    }
+    #botton-container-div li:hover  {
+      color: blue;
+      padding: 2px;
+    }
+  
+
+  }
+  @media only screen and (min-width : 321px) and (max-width: 375px) {
+    #universal-container-div {
+      width: 100%;
+      max-width: 100%;
+      min-width: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+    #navbar-contaner-div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    #top-nav-div {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-around;
+      width: 100%;
+     align-items: center;
+     min-height: 50px;
+    }
+    #top-nav-icon-div {
+      display: flex;
+      align-items: flex-start;
+    }
+    #top-nav-title-div {
+      width: 50%;
+      align-items: center;
+      font-family: 'Times New Roman', Times, serif;
+      letter-spacing: 2px;
+  
+    
+    }
+    #botton-container-div {
+      display: flex;
+      align-items: flex-start;
+      width: 100%;
+      justify-content: space-around;
+     
+    }
+    #botton-container-div span {
+      height: 100%;
+      min-height: 100%;
+      visibility: hidden;
+    }
+    #botton-container-div li:hover  {
+      color: blue;
+      padding: 2px;
+    }
+  
+
+  }
+  @media only screen and (min-width : 376px) and (max-width: 425px) {
+    #universal-container-div {
+      width: 100%;
+      max-width: 100%;
+      min-width: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+    #navbar-contaner-div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    #top-nav-div {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-around;
+      width: 100%;
+     align-items: center;
+     min-height: 50px;
+    }
+    #top-nav-icon-div {
+      display: flex;
+      align-items: flex-start;
+    }
+    #top-nav-title-div {
+      width: 50%;
+      align-items: center;
+      font-family: 'Times New Roman', Times, serif;
+      letter-spacing: 2px;
+  
+    
+    }
+    #botton-container-div {
+      display: flex;
+      align-items: flex-start;
+      width: 100%;
+      justify-content: space-around;
+     
+    }
+    #botton-container-div span {
+      height: 100%;
+      min-height: 100%;
+      visibility: hidden;
+    }
+    #botton-container-div li:hover  {
+      color: blue;
+      padding: 2px;
+    }
+  
+
+  }
+  @media only screen and (min-width : 426px) and (max-width: 640px) {
+    #universal-container-div {
+      width: 100%;
+      max-width: 100%;
+      min-width: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+    #navbar-contaner-div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    #top-nav-div {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-around;
+      width: 100%;
+     align-items: center;
+     min-height: 50px;
+    }
+    #top-nav-icon-div {
+      display: flex;
+      align-items: flex-start;
+    }
+    #top-nav-title-div {
+      width: 50%;
+      align-items: center;
+      font-family: 'Times New Roman', Times, serif;
+      letter-spacing: 2px;
+  
+    
+    }
+    #botton-container-div {
+      display: flex;
+      align-items: flex-start;
+      width: 100%;
+      justify-content: space-around;
+     
+    }
+    #botton-container-div span {
+      height: 100%;
+      min-height: 100%;
+      visibility: hidden;
+    }
+    #botton-container-div li:hover  {
+      color: blue;
+      padding: 2px;
+    }
+  
+
+  }
+  @media only screen and (min-width : 640px) {
+    #universal-container-div {
+      width: 100%;
+      max-width: 100%;
+      min-width: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+    #navbar-contaner-div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    #top-nav-div {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-around;
+      width: 100%;
+     align-items: center;
+     min-height: 50px;
+    }
+    #top-nav-icon-div {
+      display: flex;
+      align-items: flex-start;
+    }
+    #top-nav-title-div {
+      width: 50%;
+      align-items: center;
+      font-family: 'Times New Roman', Times, serif;
+      letter-spacing: 2px;
+  
+    
+    }
+    #botton-container-div {
+      display: flex;
+      align-items: flex-start;
+      width: 100%;
+      justify-content: space-around;
+     
+    }
+    #botton-container-div span {
+      height: 100%;
+      min-height: 100%;
+      visibility: hidden;
+    }
+    #botton-container-div li:hover  {
+      color: blue;
+      padding: 2px;
+    }
+  
+
+  }
+  @media only screen and (min-width : 768px) {
+    #universal-container-div {
+      width: 100%;
+      max-width: 100%;
+      min-width: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+    #navbar-contaner-div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    #top-nav-div {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-around;
+      width: 100%;
+     align-items: center;
+     min-height: 50px;
+    }
+    #top-nav-icon-div {
+      display: flex;
+      align-items: flex-start;
+    }
+    #top-nav-title-div {
+      width: 50%;
+      align-items: center;
+      font-family: 'Times New Roman', Times, serif;
+      letter-spacing: 2px;
+  
+    
+    }
+    #botton-container-div {
+      display: flex;
+      align-items: flex-start;
+      width: 100%;
+      justify-content: space-around;
+     
+    }
+    #botton-container-div span {
+      height: 100%;
+      min-height: 100%;
+      visibility: hidden;
+    }
+    #botton-container-div li:hover  {
+      color: blue;
+      padding: 2px;
+    }
+  
+
+  }
+  @media only screen and (min-width : 1440px) {
+    #universal-container-div {
+      width: 100%;
+      max-width: 100%;
+      min-width: 100%;
+      align-items: center;
+      
+      justify-content: center;
+    }
+    #navbar-contaner-div {
+      display: flex;
+      flex-direction: row-reverse;
+      
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    #top-nav-div {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 30%;
+     align-items: center;
+     min-height: 50px;
+    }
+    #top-nav-icon-div {
+      display: none;
+      align-items: flex-start;
+    }
+    #top-nav-title-div {
+      width: 50%;
+      align-items: center;
+      font-family: 'Times New Roman', Times, serif;
+      letter-spacing: 2px;
+  
+    
+    }
+    #botton-container-div {
+      display: flex;
+      
+      align-items: center;
+      width: 60%;
+      justify-content: space-around;
+      
+    }
+    #botton-container-div span {
+      height: 100%;
+      min-height: 100%;
+      visibility: hidden;
+    }
+    #botton-container-div li:hover  {
+      color: blue;
+      padding: 2px;
+    }
+  
+
+  }
+  
+  @media only screen and (min-width : 1023px) {
+    #universal-container-div {
+      width: 100%;
+      max-width: 100%;
+      min-width: 100%;
+      align-items: center;
+      
+      justify-content: center;
+    }
+    #navbar-contaner-div {
+      display: flex;
+      flex-direction: row;
+      
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    #top-nav-div {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-around;
+      width: 30%;
+     align-items: center;
+     min-height: 50px;
+    }
+    #top-nav-icon-div {
+      display: none;
+      align-items: flex-start;
+    }
+    #top-nav-title-div {
+      width: 50%;
+      align-items: center;
+      font-family: 'Times New Roman', Times, serif;
+      letter-spacing: 2px;
+  
+    
+    }
+    #botton-container-div {
+      display: flex;
+      
+      align-items: center;
+      width: 60%;
+      justify-content: space-around;
+      
+    }
+    #botton-container-div span {
+      height: 100%;
+      min-height: 100%;
+      visibility: hidden;
+    }
+    #botton-container-div li:hover  {
+      color: blue;
+      padding: 2px;
+    }
+  
+
+  }

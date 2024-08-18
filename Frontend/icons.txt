@@ -1,0 +1,63 @@
+send            import { IoSendSharp } from "react-icons/io5";
+past            import { FaPaste } from "react-icons/fa6";
+link            import { FaLink } from "react-icons/fa6";
+upload          import { MdOutlineFileUpload } from "react-icons/md";
+emoji           import { MdEmojiEmotions } from "react-icons/md";
+Microphone      import { TiMicrophone } from "react-icons/ti";
+record          import { SlCamrecorder } from "react-icons/sl";
+Phone           import { FaPhoneAlt } from "react-icons/fa";
+DoubleTick      import { FaCheckDouble } from "react-icons/fa6";
+WifiError       import { RiSignalWifiErrorFill } from "react-icons/ri";
+SendError       import { VscRunErrors } from "react-icons/vsc";
+Left            import { GoArrowLeft } from "react-icons/go";
+Block           import { MdOutlineBlock } from "react-icons/md";
+PersonAdd       import { IoPersonAdd } from "react-icons/io5";
+moon            import { GiMoonClaws } from "react-icons/gi";
+sun             import { RxSun } from "react-icons/rx";
+search          import { LiaSearchengin } from "react-icons/lia";
+download        import { IoMdDownload } from "react-icons/io";
+more            import { IoMdMore } from "react-icons/io";
+Chats           import { PiChatsThin } from "react-icons/pi";
+Reload 		import { RxReload } from "react-icons/rx";
+Pin		    import { LuPin } from "react-icons/lu";
+UnPin		import { LuPinOff } from "react-icons/lu";
+BoxQuote    import { BsQuote } from "react-icons/bs";
+RoundQuote  import { RiDoubleQuotesL } from "react-icons/ri";
+file upload import { FaFileArrowUp } from "react-icons/fa6";
+file download import { FaFileArrowDown } from "react-icons/fa6";
+download import { FaDownload } from "react-icons/fa";
+Ban = 
+Communication: Where Meaning Meets Momentum
+
+/* Styling the scrollbar */
+::-webkit-scrollbar {
+  width: 10px; /* width of the scrollbar */
+  height: 10px; /* height of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f0f0f0; /* color of the scrollbar track */
+  border-radius: 10px; /* rounded corners for the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #aaa; /* color of the scrollbar thumb */
+  border-radius: 10px; /* rounded corners for the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #666; /* color of the scrollbar thumb on hover */
+}
+
+/* Making the scrollbar visible */
+body {
+  overflow-y: scroll; /* making the scrollbar visible */
+}
+
+  const chatSocket = new WebSocket(
+            'ws://'
+            + window.location.host
+            + '/ws/chat/'
+            + roomName 
+            + '/'
+        ) 

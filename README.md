@@ -7,11 +7,13 @@
 This repository houses a full-stack web application with authentication for login, sign up, reset password and account activation.Designed to facilitate job posting and application processes. Employers can create and manage job listings, while job seekers can apply, withdraw applications, and track their status. The platform supports multiple approvals for a single job position and one can track their job history 
 
 ## Image Previews
-![alt text](<../images/job image (1).png>)
-![alt text](<../images/job image (2).png>) 
-![alt text](<../images/job image (3).png>) 
-![alt text](<../images/job image (4).png>) 
-![alt text](<../images/job image (5).png>) 
+![alt text](<./images/job image (4).png>) 
+![alt text](<./images/job image (5).png>) 
+![alt text](<./images/job image (1).png>)
+![alt text](<./images/job image (2).png>) 
+![alt text](<./images/job image (3).png>) 
+
+
 **Technology Stack**
 --------------------
 

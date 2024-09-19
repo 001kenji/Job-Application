@@ -10,6 +10,7 @@ This repository houses a full-stack web application with authentication for logi
 ![alt text](<./images/job image (4).png>) 
 ![alt text](<./images/job image (5).png>) 
 ![alt text](<./images/job image (1).png>)
+![alt text](<./images/job image (6).png>) 
 ![alt text](<./images/job image (2).png>) 
 ![alt text](<./images/job image (3).png>) 
 
